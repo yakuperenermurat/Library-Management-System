@@ -67,7 +67,9 @@ Bu proje, kütüphane yönetim sistemi için bir REST API sağlar. CRUD işlemle
     mvn spring-boot:run
     ```
 
-4. API'yi Postman veya başka bir araçla kullanabilirsiniz.
+4.Sql'deki database 'imin backup'ını alıp repoya ekledim.Ekledim .sql formatındaki dosyayı sql'de restore edip database'imi kendi localinize kopyalıyabilirsiniz.
+
+5. API'yi Postman veya başka bir araçla kullanabilirsiniz.Postmande hazır kullandığım end pointleri export edip repoya ekledim o dosyayı postmana import ederek end pointleri ve hazır JSON formatındaki put ve post kodlarına erişebilirsiniz.
 
 ## Bağımlılıklar
 
